@@ -39,7 +39,7 @@ h1,h2{
 .wee{
   border-color: blue;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1920px){
  /* tablets and desktop */
   .about{
       height: 22vw;
@@ -50,9 +50,11 @@ h1,h2{
  }
   .em_box{
       max-width: 27vw;
+      margin-top: 10vw;
+      
  }
   .linked{
-      padding: 13vh;
+      padding: 10vh;
  }
 }
 @media only screen and (max-width: 767px) {
