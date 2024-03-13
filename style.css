@@ -28,10 +28,14 @@
 
 .about {
 	background-color: rgb(255, 243, 209);
+	height: fit-content;
+	max-height: 75vh;
+	
 }
 
 .em_box {
 	background-color: rgb(255, 243, 209);
+
 }
 
 .para {
@@ -49,37 +53,34 @@ h2 {
 
 .paper_text {
 	font-family: 'Courier New', Courier, monospace;
+	color: rgb(0, 9, 52);
+}
+.linked{
+	padding: 2vh;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+@media only screen and (min-width: 1200px){
 
 	/* Large desktop */
 	.about {
-		height: 22vw;
 		max-width: 25vw;
 	}
 
 	.para {
 		font-size: 1vw;
+		
 	}
 
 	.em_box {
-		max-width: 27vw;
-		margin-top: 10vw;
-
-	}
-
-	.linked {
-		padding: 10vh;
+		max-width: 25vw;
 	}
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
 
 	/* Large devices (laptops/desktops, 992px and up) */
 	.about {
-		height: 22vw;
-		max-width: 25vw;
+		max-width: 25vw;	
 	}
 
 	.para {
@@ -87,27 +88,19 @@ h2 {
 	}
 
 	.em_box {
-		max-width: 27vw;
-		margin-top: 10vw;
+		max-width: 25vw;
 	}
-
-	.linked {
-		padding: 10vh;
-	}
-
-
 }
 
 @media only screen and (max-width: 767px) {
 
 	/* phone vertical */
 	.about {
-		height: 60vw;
 		max-width: 45vw;
 	}
 
 	.para {
-		font-size: 2.4vw;
+		font-size: 2.28vw;
 	}
 
 	.photo {
@@ -117,7 +110,6 @@ h2 {
 
 	.em_box {
 		max-width: 45vw;
-		margin-top: 13vw;
 	}
 
 	.paper_text {
@@ -129,8 +121,11 @@ h2 {
 
 	/* landscape phones and tablets */
 	.about {
-		height: 45vw;
-		max-width: 45vw;
+		max-width: 40vw;
+	}
+	.photo{
+		width: 30vw;
+		height: 30vw;
 	}
 
 	.para {
@@ -138,7 +133,8 @@ h2 {
 	}
 
 	.em_box {
-		margin-top: 15vw;
+		
+		max-width: 40vw;
 	}
 
 	.paper_text {
